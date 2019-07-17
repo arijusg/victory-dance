@@ -102,7 +102,7 @@ function checkForProdDeploys () {
                     }
                     return false
                 })
-                if (validProdDeployments.length >= 0) {
+                if (validProdDeployments.length > 0) {
                     playVideo()
                 }
             }
